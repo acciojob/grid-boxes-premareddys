@@ -1,1 +1,15 @@
-/*  your css code here. If applicable */
+
+.one{
+	grid-template-row:100px;
+	background-color:green;
+	color:white;
+	align-text:left;
+	height:50px;
+}
+.two{
+     grid-template-column:50px;
+	background-color:green;
+	color:white;
+	align-text:left;
+	height:0px;
+}
