@@ -1,15 +1,26 @@
-
-.one{
+#grid{
+	display:grid;
+	gap:1rem;
+}
+.body{
+	box-sizing:border-box;
+}
+.item1{
 	grid-template-row:100px;
 	background-color:green;
 	color:white;
 	align-text:left;
 	height:50px;
+	border-top:1px solid black;
+	padding:10px;
+	font-size:30px;
 }
-.two{
-     grid-template-column:50px;
+.item2{
 	background-color:green;
 	color:white;
 	align-text:left;
-	height:0px;
+	height:400px;
+	width:200px;
+	padding:10px;
+	font-size:30px;	
 }
