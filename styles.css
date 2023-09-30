@@ -1,26 +1,27 @@
 #grid{
 	display:grid;
-	gap:1rem;
+	grid-gap:10px;
+	grid-template-rows:124px 124px 124px 124px 124px;
+	grid-template-columns:242.5px 242.5px 242.5px 242.5px;
 }
-.body{
-	box-sizing:border-box;
-}
-.item1{
-	grid-template-row:100px;
+div{
 	background-color:green;
 	color:white;
-	align-text:left;
-	height:50px;
-	border-top:1px solid black;
-	padding:10px;
 	font-size:30px;
 }
-.item2{
-	background-color:green;
-	color:white;
-	align-text:left;
-	height:400px;
-	width:200px;
-	padding:10px;
-	font-size:30px;	
+.item1{
+	grid-column: span 4;
 }
+.item2{
+	grid-row: span 4;
+}
+.item4{
+	grid-column: span 2;
+}
+.item5{
+	grid-column: span 2;
+}
+.item10{
+	grid-column: span 3;
+}
+
